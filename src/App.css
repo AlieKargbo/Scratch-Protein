@@ -1,0 +1,181 @@
+/* 
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  .icon {
+    margin-bottom: 16px;
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--border);
+  @media (max-width: 1024px) {
+    height: 48px;
+  }
+} */
+
+/* Reset basic margin/padding for the body in your global CSS if you haven't already */
+/* body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh; Takes up the full viewport height 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+/* --- Sidebar Styles --- */
+/*.sidebar {
+  width: 250px;
+  background-color: #1e293b;  Dark slate 
+  color: #f8fafc;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}*/
+
+/* .sidebar-item {
+  padding: 12px 16px;
+  background-color: #334155;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+} */
+
+/*.sidebar-item:hover {
+  background-color: #3b82f6;  Blue accent on hover 
+  transform: translateX(4px); Slight nudge effect
+}*/
+
+/* --- Main Canvas Styles --- */
+/*.main-canvas {
+  flex: 1;  Takes up the remaining width 
+  background-color: #f1f5f9;
+  padding: 32px;
+  overflow-y: auto; Allows scrolling if canvas content gets too tall
+  display: flex;
+  flex-direction: column;
+}*/
+
+/* .canvas-header {
+  background: white;
+  padding: 20px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+
+.canvas-header h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 1.8rem;
+} */
+
+/* .canvas-content { */
+/*  flex: 1;  Fills the rest of the main area 
+  background: white;
+  border-radius: 8px;
+  border: 2px dashed #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  font-size: 1.2rem;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f7f8fc;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* .app-container{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+} */
+
+.header {
+  height: 80px;
+  padding: 16px 32px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 4px 0 0;
+  color: #6b7280;
+}
+
+.workspace-container {
+  padding: 24px;
+}
+
+.output-aside {
+  width: 250px;
+  height: 150px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+/* .canvas-container {
+  display: flex;
+} */
